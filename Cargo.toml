@@ -1,0 +1,8 @@
+[package]
+name = "uuid-paste"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arboard = "3.4.1"
+uuid = { version = "1.11.0", features = ["v4"] }
